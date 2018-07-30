@@ -1,5 +1,6 @@
 body,p,h1 {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
   color: #505050;
   margin: 0;
   padding: 0;
@@ -17,6 +18,11 @@ ul {
 li {
   list-style: none;
   text-align: center;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
 }
 
 .main-nav {
@@ -332,4 +338,23 @@ iframe {
   display:none;
   text-indent:-9999px;
   background: url('../img/icon_top.png') no-repeat;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contacts__name {
+  font-size: 38px;
+}
+
+.contacts__prof {
+  font-size: 14px;
+}
+
+.contacts__cont {
+  margin-top: 10px;
+  font-size: 20px;
 }
