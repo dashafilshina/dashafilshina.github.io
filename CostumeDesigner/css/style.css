@@ -146,6 +146,7 @@ button {
 
 .foto-main img {
   margin-bottom: 20px;
+  object-fit: contain;
 }
 
 .foto-main img {
@@ -288,7 +289,7 @@ iframe {
   }
 
   .foto-main .dasha {
-    width: 220px;
+    width: 280px;
     height: 220px;
   }
 
@@ -313,7 +314,7 @@ iframe {
   }
 
   .foto-main .dasha {
-    width: 320px;
+    width: 480px;
     height: 320px;
   }
 }
