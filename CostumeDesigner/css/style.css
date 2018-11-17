@@ -343,7 +343,8 @@ iframe {
 
   .foto-main .img {
     width: 575px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
